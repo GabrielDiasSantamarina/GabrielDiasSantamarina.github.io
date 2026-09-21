@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gabriel Dias Santamarina</title>
+<meta name="description" content="Gabriel Dias Santamarina — PhD Candidate in Economics, Yale University">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<button id="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+
+<header>
+  <h1>Gabriel Dias Santamarina</h1>
+  <p>PhD Candidate in Economics<br>Yale University</p>
+</header>
+
+<nav>
+  <a href="index.html">Home</a>
+</nav>
+
+<main>
+  <section>
+    <h2>About Me</h2>
+    <p>
+      I am a PhD candidate in Economics at Yale University. I am on the 2026–27 job market.
+    </p>
+    <p>
+      My research fields are Industrial Organization and Development Economics (primary),
+      and Energy Economics and Regulation (secondary). My work combines reduced-form
+      empirical methods with structural modeling.
+    </p>
+    <p>
+      Email: <a href="mailto:gabriel.santamarina@yale.edu">gabriel.santamarina@yale.edu</a><br>
+      Office: Department of Economics, Yale University, New Haven, CT 06520-8268
+    </p>
+  </section>
+
+  <section>
+    <h2>Working Papers</h2>
+    <p>
+      <strong>Infrastructure Provision and Payment Evasion: Evidence from Energy Distribution in Brazil</strong>
+      (August 2026) — Job Market Paper
+    </p>
+    <p>
+      <strong>Signaling in the Age of AI: Evidence from Cover Letters</strong>,
+      with Jingyi Cui and Justin Ye (September 2025) — R&R at Journal of Labor Economics
+    </p>
+  </section>
+
+  <section>
+    <h2>Works in Progress</h2>
+    <p>
+      <strong>Specific Investment and Contract Design: Evidence from Public Transportation</strong>,
+      with Guillermo Diaz, Kei Kawai, and Andre Trindade (2026)
+    </p>
+  </section>
+
+  <section>
+    <h2>Teaching</h2>
+    <ul>
+      <li>Microeconomic Theory (Intensive), Yale University, Fall 2025 — Teaching Fellow</li>
+      <li>Introduction to Macroeconomics, Yale University, Spring 2025 — Teaching Fellow</li>
+      <li>Game Theory (Summer), Yale University, Summer 2023–2025 — Teaching Fellow</li>
+      <li>Intermediate Microeconomics, Yale University, Fall 2023–2024 — Teaching Fellow</li>
+      <li>Macroeconomics (MBA), FGV-EPGE, 2020 — Teaching Assistant</li>
+      <li>Statistics I and II (PhD), FGV-EPGE, 2019 — Teaching Assistant</li>
+    </ul>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2026</p>
+</footer>
+
+<script>
+  const toggle = document.getElementById('theme-toggle');
+  toggle.addEventListener('click', () => {
+    document.body.classList.toggle('dark');
+    toggle.textContent = document.body.classList.contains('dark') ? '☀️' : '🌙';
+  });
+</script>
+
+</body>
+</html>
