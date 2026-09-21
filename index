@@ -12,6 +12,7 @@
 <button id="theme-toggle" aria-label="Toggle dark mode">🌙</button>
 
 <header>
+  <img src="JMP_Photo.jpg" alt="Gabriel Dias Santamarina">
   <h1>Gabriel Dias Santamarina</h1>
   <p>PhD Candidate in Economics<br>Yale University</p>
 </header>
