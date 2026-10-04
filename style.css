@@ -93,6 +93,14 @@ h2 {
 }
 
 a {
+  color: #1a73e8;
+}
+
+body.dark a {
+  color: #8ab4f8;
+}
+
+nav a {
   color: var(--text);
 }
 
