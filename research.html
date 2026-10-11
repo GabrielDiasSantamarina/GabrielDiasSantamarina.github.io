@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Research | Gabriel Dias Santamarina</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<button id="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+
+<header>
+  <h1>Gabriel Dias Santamarina</h1>
+  <p>PhD Candidate in Economics<br>Yale University</p>
+</header>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="research.html" class="active">Research</a>
+  <a href="teaching.html">Teaching</a>
+</nav>
+
+<main>
+  <section>
+    <h2>Working Papers</h2>
+    <p>
+      <strong>Infrastructure Provision and Payment Evasion: Evidence from Energy Distribution in Brazil</strong>
+      (August 2026) — Job Market Paper
+    </p>
+    <p>
+      <strong>Signaling in the Age of AI: Evidence from Cover Letters</strong>
+      [<a href="https://arxiv.org/abs/2509.25054" target="_blank">arxiv</a>],
+      with <a href="https://jingyi-cui.github.io" target="_blank">Jingyi Cui</a> and <a href="https://economics.yale.edu/people/justin-ye" target="_blank">Justin Ye</a> (September 2025) — R&R at Journal of Labor Economics
+    </p>
+  </section>
+
+  <section>
+    <h2>Work in Progress</h2>
+    <p>
+      <strong>Specific Investment and Contract Design: Evidence from Public Transportation</strong>,
+      with <a href="https://sites.google.com/view/guillermodiaz-academic" target="_blank">Guillermo Diaz</a>, <a href="http://www.keikawai.com" target="_blank">Kei Kawai</a>, and <a href="https://sites.google.com/site/andretrindade/" target="_blank">Andre Trindade</a> (2026)
+    </p>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2026</p>
+</footer>
+
+<script>
+  const toggle = document.getElementById('theme-toggle');
+  if (localStorage.getItem('theme') === 'dark') {
+    document.body.classList.add('dark');
+    toggle.textContent = '☀️';
+  }
+  toggle.addEventListener('click', () => {
+    document.body.classList.toggle('dark');
+    const dark = document.body.classList.contains('dark');
+    toggle.textContent = dark ? '☀️' : '🌙';
+    localStorage.setItem('theme', dark ? 'dark' : 'light');
+  });
+</script>
+
+</body>
+</html>
