@@ -104,6 +104,14 @@ nav a {
   color: var(--text);
 }
 
+main img {
+  width: 200px;
+  height: 200px;
+  max-width: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
 ul {
   padding-left: 20px;
 }
