@@ -147,3 +147,23 @@ nav a.active {
     align-items: center;
   }
 }
+
+.course {
+  background: #f3f3f3;
+  border-radius: 6px;
+  padding: 12px 16px;
+  margin-bottom: 10px;
+}
+
+.course strong {
+  display: block;
+}
+
+.course span {
+  color: var(--accent);
+  font-size: 15px;
+}
+
+body.dark .course {
+  background: #1e1e1e;
+}
